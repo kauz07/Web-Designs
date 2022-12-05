@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+.square {
+    background-color: #a3113e;
+}
+.rectangle{
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px ;
+    background-color: #ffffff;
+    border-radius: 0mm 0mm 20px 20px;
+}
+.bgimg{
+    background-image:url(collegebuilding.png);
+    opacity: 85%;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
+
+a {text-decoration: none;}
+
+nav {
+	background: #980e37;
+	font-size: 0;
+	position: relative;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+nav > ul > li {
+	display: inline-block;
+  	font-size: 14px;
+  	padding: 0 45px;
+  	position: relative;
+}
+
+nav > ul > li > a {
+	color: #fff;
+  	display: block;
+  	padding: 20px 0;
+  	border-bottom: 3px solid transparent;
+    transition: all .3s ease;
+}
+nav > ul > li:hover > a {
+	color: #444; 
+  	border-bottom: 3px solid #444;
+}
+
+.mega-menu {
+	background: #eee;
+  	visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  	position: absolute;
+  	left: 0;
+  	width: 100%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+

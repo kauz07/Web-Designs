@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <head>
+        <script>
+            var one,two,sum,dif,mul,div;
+            function add()
+            {
+                
+                one=parseInt(document.getElementById("first").value);
+                two=parseInt(document.getElementById("second").value);
+                sum=one+two;
+                document.getElementById("answer").value=sum;
+            }
+            function dif()
+            {
+                
+                one=parseInt(document.getElementById("first").value);
+                two=parseInt(document.getElementById("second").value);
+                dif=one-two;
+                document.getElementById("answer").value=dif;
+            }
+            function mul()
+            {
+                
+                one=parseInt(document.getElementById("first").value);
+                two=parseInt(document.getElementById("second").value);
+                mul=one*two;
+                document.getElementById("answer").value=mul;
+            }
+            function div()
+            {
+                
+                one=parseInt(document.getElementById("first").value);
+                two=parseInt(document.getElementById("second").value);
+                div=one/two;
+                document.getElementById("answer").value=div;
+            }
+        </script>
+    </head>
+    <body>
+        <p> Enter First Number: <input id="first"></p>
+        <p> Enter Second Number: <input id="second"></p>
+        <button onclick="add()">Add</button>
+        <button onclick="dif()">Subtract</button>
+        <button onclick="mul()">Multiply</button>
+        <button onclick="div()">Division</button>
+        <p> Answer = <input id="answer"></p> 
+    </body>
+</html>

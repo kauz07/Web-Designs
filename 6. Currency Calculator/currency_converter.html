@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Currency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="font1">
+    <h1 align="center" style="color: #636363;"><u>Currency Converter</u></h1>
+    <div style="float: right ;color: #224d75;">
+        <center><a href="../Index.html" style="color: #000000;" >HOME</a></center>
+    <h1>Currency</h1>
+    <p>AUD - Australian Dollars</p>
+    <p>USD - United States Dollar</p>
+    <p>EUR - Euro</p>
+    <p>KWD - Kwait Dhinar</p>
+    <p>GBP - Great Britan Pounds</p>
+    <p>YEN - Japanese Yen</p>
+    </div>
+    <table class="calculator" style="margin-left: 37%">
+        <tr>
+            <td style="width:11px" colspan="2"> <input class="display-box" type="text" placeholder="INR" id="result" disabled /> </td>
+
+            <!-- clearScreen() function clears all the values -->
+            <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
+        </tr>
+        <tr>
+            <!-- display() function displays the value of clicked button -->
+            <td> <input type="button" value="1" onclick="display('1')" /> </td>
+            <td> <input type="button" value="2" onclick="display('2')" /> </td>
+            <td> <input type="button" value="3" onclick="display('3')" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="4" onclick="display('4')" /> </td>
+            <td> <input type="button" value="5" onclick="display('5')" /> </td>
+            <td> <input type="button" value="6" onclick="display('6')" /> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" value="7" onclick="display('7')" /> </td>
+            <td> <input type="button" value="8" onclick="display('8')" /> </td>
+            <td> <input type="button" value="9" onclick="display('9')" /> </td>
+        </tr>
+        <tr>
+            <td colspan="2"> <input type="button" value="0" onclick="display('0')" /> </td>
+            <td> <input type="button" value="." onclick="display('.')" /> </td>
+            
+        </tr>   
+        <tr colspan="2"><td style="color: #dbdbdb;">Currency</td></tr>
+        <tr >
+            <td> <input type="button" value="AUD" onclick="calculateaud()" /> </td>
+            <td> <input type="button" value="USD" onclick="calculateusd()" /> </td>
+            <td> <input type="button" value="EUR" onclick="calculateeur()" /> </td>
+        </tr>
+        <tr >
+            <td> <input type="button" value="KWD" onclick="calculatkwd()" /> </td>
+            <td> <input type="button" value="GBP" onclick="calculategbp()" /> </td>
+            <td> <input type="button" value="YEN" onclick="calculateeyen()" /> </td>
+        </tr>
+    </table>
+    <br>
+    <center>
+        <br>
+    <div class="calc1">
+    <input class="display-box" type="text" placeholder="Currency" id="result1" disabled />
+    </center>
+    <script type="text/javascript" src="script1.js"></script>
+</div>
+</div>
+</body>
+
+</html>
